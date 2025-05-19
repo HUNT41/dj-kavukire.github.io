@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DJ Kavukire | Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+    body {
+      background: #111;
+      color: #fff;
+      line-height: 1.6;
+    }
+    header {
+      background: #1e1e1e;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      color: #00ffcc;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 10px;
+    }
+    nav a {
+      color: #00ffcc;
+      text-decoration: none;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    section h2 {
+      color: #00ffcc;
+      margin-bottom: 10px;
+    }
+    .services, .portfolio {
+      display: grid;
+      gap: 20px;
+    }
+    .portfolio-item {
+      background: #222;
+      padding: 15px;
+      border-radius: 8px;
+    }
+    .contact {
+      text-align: center;
+    }
+    .contact a {
+      color: #00ffcc;
+    }
+    footer {
+      background: #1e1e1e;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>DJ Kavukire</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I'm DJ Kavukire — a creative mind in music production, DJing, photography and web development. My dream is to inspire through sound and visuals. I use tech and art to build a better future for myself and others.
+    </p>
+  </section>
+
+  <section id="services">
+    <h2>Services</h2>
+    <div class="services">
+      <p>🎧 Music Production (Audio Editing, Beats)</p>
+      <p>🎛️ DJ Services for Events</p>
+      <p>📸 Photography & Photo Retouch</p>
+      <p>💻 Web Design & Development (HTML/CSS)</p>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="portfolio">
+      <div class="portfolio-item">
+        <h3>DJ Demo Mix</h3>
+        <p>SoundCloud link or demo here...</p>
+      </div>
+      <div class="portfolio-item">
+        <h3>Photography Showcase</h3>
+        <p>Sample images or gallery link here...</p>
+      </div>
+      <div class="portfolio-item">
+        <h3>Sample Website Project</h3>
+        <p>Website link or GitHub repo here...</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>📧 Email: <a href="mailto:your@email.com">your@email.com</a></p>
+    <p>📱 WhatsApp: <a href="https://wa.me/your-number">+2507XXXXXXXX</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 DJ Kavukire. All rights reserved.</p>
+  </footer>
+</body>
+</html>
